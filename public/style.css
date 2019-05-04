@@ -1,0 +1,33 @@
+* {
+  font-family: 'Helvetica', 'sans-serif';
+}
+
+body {
+  background-color: #444;
+}
+
+h1,h2,h3,h4,p {
+  color: #fff;
+}
+
+.opener {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  margin-left: 5%;
+}
+
+.opener span {
+  text-decoration: line-through;
+  color: red;
+}
+
+.wisdom {
+  position: relative;
+  top: 150px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
